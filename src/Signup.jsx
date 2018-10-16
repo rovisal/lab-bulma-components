@@ -38,10 +38,10 @@ class Signup extends Component {
 
         <div className="field is-grouped">
           <div className="control">
-            <CoolButton isSmall isSuccess isLink value="Submit"></CoolButton>
+            <CoolButton isSmall isSuccess isLink>Submit</CoolButton>
           </div>
           <div className="control">
-          <CoolButton isSmall isDanger isText  value="Cancel"></CoolButton>
+          <CoolButton isSmall isDanger isText>Cancel</CoolButton>
           </div>
         </div>
       </div>

@@ -64,8 +64,8 @@ class Navbar extends Component {
                       Tweet
                     </span>
                   </a> */}
-                  <CoolButton isSmall isDanger className="is-rounded my-class" value="Login"></CoolButton>
-                  <CoolButton isSmall isSuccess value="Signup"></CoolButton>
+                  <CoolButton isSmall isDanger className="is-rounded my-class" value="Login">Login</CoolButton>
+                  <CoolButton isSmall isSuccess value="Signup">Signup</CoolButton>
                 </p>
                 {/* <p className="control">
                   <a className="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
